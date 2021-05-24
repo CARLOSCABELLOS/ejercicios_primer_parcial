@@ -1,0 +1,21 @@
+Algoritmo elMayor
+	
+	dimension nums[20]
+	
+	Para i = 0 Hasta 19 Con Paso 1 Hacer
+		nums[i] = azar(100);
+	Fin Para
+	
+	//Para i = 0 Hasta 19 Con Paso 1 Hacer
+	//	escribir nums[i]
+	//Fin Para
+	elnummayor = 0
+	
+	Para i=0 Hasta 19 Con Paso 1 Hacer
+		Si elnummayor < nums[i] Entonces
+			elnummayor = nums[i];
+		Fin Si
+	Fin Para
+	
+	Escribir "el mayor es: ", elnummayor
+FinAlgoritmo
